@@ -1,0 +1,16 @@
+.container {
+  width: 100vw;
+  top: 0;
+  background-color: dodgerblue;
+  position: fixed;
+}
+
+.listParent {
+  display: flex;
+}
+
+.listItem {
+  list-style: none;
+  color: white;
+  margin: 0 10px;
+}

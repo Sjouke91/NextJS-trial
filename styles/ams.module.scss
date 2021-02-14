@@ -1,0 +1,39 @@
+.container {
+  height: 25vh;
+  width: 90vw;
+
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 5px 0px rgba(228, 228, 228, 0.75);
+
+  .icon {
+    margin: 0 60px;
+    height: 7vw;
+    width: 7vw;
+  }
+
+  .textInput {
+    .title {
+      color: dodgerblue;
+      font-weight: 600;
+      margin-bottom: -10px;
+    }
+    .body {
+      font-weight: 200;
+    }
+  }
+  .button {
+    height: 3.5em;
+    width: 12vw;
+    border: none;
+    background-color: dodgerblue;
+    border-radius: 12.5vh;
+    color: white;
+    margin: 0 60px;
+    outline: none;
+  }
+  .button:active {
+    background-color: firebrick;
+  }
+}
